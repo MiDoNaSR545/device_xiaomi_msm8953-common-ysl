@@ -145,8 +145,6 @@ public class DeviceSettings extends PreferenceFragment implements
                 FileUtils.setValue(VIBRATION_STRENGTH_PATH, vibrationValue);
                 break;
 
-                break;
-
             case PREF_ENABLE_DIRAC:
                 try {
                     DiracService.sDiracUtils.setEnabled((boolean) value);
