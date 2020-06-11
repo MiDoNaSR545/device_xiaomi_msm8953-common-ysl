@@ -279,7 +279,7 @@ ro.debuggable=1
 
 # Vulkan(skia) Profil
 PRODUCT_PROPERTY_OVERRIDES += \
-debug.hwui.renderer=skiavk
+debug.hwui.renderer=opengl
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
