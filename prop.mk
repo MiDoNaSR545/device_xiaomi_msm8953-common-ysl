@@ -284,3 +284,7 @@ debug.hwui.renderer=opengl
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
+
+# Processor Details
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.processor.model=SDM625
